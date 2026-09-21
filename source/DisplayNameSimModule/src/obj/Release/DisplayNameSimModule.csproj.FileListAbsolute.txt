@@ -1,0 +1,8 @@
+C:\Opensim\addon-modules\DisplayNameSimModule\src\obj\Release\DisplayNameSimModule.csproj.AssemblyReference.cache
+C:\Opensim\addon-modules\DisplayNameSimModule\src\obj\Release\DisplayNameSimModule.GeneratedMSBuildEditorConfig.editorconfig
+C:\Opensim\addon-modules\DisplayNameSimModule\src\obj\Release\DisplayNameSimModule.csproj.CoreCompileInputs.cache
+C:\Opensim\bin\DisplayNameSimModule.dll
+C:\Opensim\bin\DisplayNameSimModule.pdb
+C:\Opensim\addon-modules\DisplayNameSimModule\src\obj\Release\DisplayN.94D58251.Up2Date
+C:\Opensim\addon-modules\DisplayNameSimModule\src\obj\Release\DisplayNameSimModule.dll
+C:\Opensim\addon-modules\DisplayNameSimModule\src\obj\Release\DisplayNameSimModule.pdb

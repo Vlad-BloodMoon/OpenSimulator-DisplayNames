@@ -1,0 +1,86 @@
+<?php
+
+declare(strict_types=1);
+
+/*
+ * ============================================================
+ * OPENSIMULATOR GRID
+ * Display Names backend configuration
+ * ============================================================
+ *
+ * Copy this file to config.php, then enter your own MySQL
+ * credentials and database names.
+ * Never commit the real config.php file to a public repository.
+ */
+
+return [
+
+    /*
+     * --------------------------------------------------------
+     * MySQL
+     * --------------------------------------------------------
+     */
+
+    'db_host' => '127.0.0.1',
+
+    'db_port' => 3306,
+
+    'db_user' => 'displaynames_user',
+
+    'db_pass' => 'CHANGE_ME_STRONG_PASSWORD',
+
+
+    /*
+     * Dedicated Display Names database.
+     * You may choose any database name.
+     */
+    'db_displaynames' => 'opensim_displaynames',
+
+
+    /*
+     * OpenSimulator Robust database.
+     *
+     * Only UserAccounts needs to be read.
+     */
+    'db_robust' => 'robust',
+
+
+    /*
+     * --------------------------------------------------------
+     * Display Names
+     * --------------------------------------------------------
+     */
+
+    /*
+     * Number of days between two changes.
+     *
+     * 0 = no delay
+     * 7 = one change every 7 days
+     */
+    'change_delay_days' => 0,
+
+
+    /*
+     * --------------------------------------------------------
+     * Simulator access
+     * --------------------------------------------------------
+     *
+     * The validated deployment accepts calls from any simulator
+     * IP so simulators may be hosted remotely or use dynamic IPs.
+     * See SECURITY.md before exposing the service publicly.
+     */
+
+    'allow_all_ips' => true,
+
+
+    /*
+     * --------------------------------------------------------
+     * Debug / log
+     * --------------------------------------------------------
+     */
+
+    'debug' => true,
+
+    'log_file' =>
+        __DIR__ . '/../logs/displaynames.log',
+];

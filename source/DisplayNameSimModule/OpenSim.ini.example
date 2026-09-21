@@ -1,0 +1,6 @@
+[DisplayNameCaps]
+ServiceBase = "https://your-grid.example/displayname"
+HttpTimeoutMs = 5000
+CacheTtlMinutes = 30
+MaxConcurrentServiceCalls = 5
+Verbose = true
